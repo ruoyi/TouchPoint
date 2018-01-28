@@ -11,4 +11,4 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 ```
 
 # Show
-![show](https://github.com/ruoyi/TouchPoint/show.gif "百度logo")
+![show](https://github.com/ruoyi/TouchPoint/blob/master/show.gif "show")
