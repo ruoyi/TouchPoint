@@ -32,7 +32,7 @@ class TouchPointGesture: UIGestureRecognizer {
             
             switch touch.phase {
             case .began:
-                let dotView = DotView(frame: CGRect(x: 0, y: 0, width: 20, height: 20), color: dotColor)
+                let dotView = DotView(frame: CGRect(x: 0, y: 0, width: dotWidth, height: dotWidth), color: dotColor)
                 dotView.center = touch.location(in: touch.window)
                 dotViews[touch.hashValue] = dotView
                 touch.window?.addSubview(dotView)
